@@ -23,6 +23,7 @@ const AddPost = () => {
                             setCategoryActive(true)
                             setSelect('')
                             setChoose('')
+                            setChoose2('')
                         }
                         }>Alege
                         </button>
@@ -71,15 +72,19 @@ const AddPost = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='dynamic__block-car'>
-                        <Select title='Model' list={choose2.length ? category.filter(item => item.category.includes(select))[0].list.filter(el => el.category.includes(choose))[0].list.filter(item => item.name.includes(choose2))[0].models : []}/>
-                        <Select title='Anul' list={[1999,2000,2001,2002,2003,2004]}/>
-                        <Select title='Motorul' list={[1.8 , 2.5 ,3.0]}/>
-                        <Select title='Caroserie' list={['Sedan', 'Bus']}/>
-                    </div>
-                    <div className='dynamic__block-animals'>
-                        <Select title='Livrare' list={['Livrare gratisa' , 'Livrare cu plata']}/>
-                    </div>
+                    {
+                        select === 'Transport' && <div className='dynamic__block-car'>
+                            <Select title='Model' list={choose2.length ? category.filter(item => item.category.includes(select))[0].list.filter(el => el.category.includes(choose))[0].list.filter(item => item.name.includes(choose2))[0].models : []}/>
+                            <Select title='Anul' list={[1999,2000,2001,2002,2003,2004]}/>
+                            <Select title='Motorul' list={[1.8 , 2.5 ,3.0]}/>
+                            <Select title='Caroserie' list={['Sedan', 'Bus']}/>
+                        </div>
+                    }
+                    {
+                        select === 'Animale' && <div className='dynamic__block-animals'>
+                            <Select title='Livrare' list={['Livrare gratisa' , 'Livrare cu plata']}/>
+                        </div>
+                    }
                     <button type='submit'>Plaseaza</button>
                 </form>
             </div>
