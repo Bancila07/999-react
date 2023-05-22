@@ -1,0 +1,39 @@
+.product{
+  padding: 50px 0;
+  &__crumbs{
+    display: flex;
+    column-gap: 5px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: goldenrod;
+    cursor: pointer;
+    &-link{
+      color: #000000;
+    }
+  }
+  &__content{
+    display: flex;
+    column-gap: 100px;
+    align-items: center;
+    &-left{
+      width: 50%;
+    }
+    &-right{
+      width: 50%;
+    }
+    &-img{
+      width: 100%;
+    }
+    &-title{
+      font-size: 30px;
+    }
+    &-desc{
+      font-size: 25px;
+      margin: 20px 0;
+    }
+    &-price{
+      font-size: 25px;
+    }
+  }
+
+}

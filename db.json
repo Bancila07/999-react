@@ -1,0 +1,79 @@
+{
+  "users": [
+    {
+      "email": "Max@mail.ru",
+      "password": "$2a$10$ADLR9dO4mDKufM62U9w5bOE7fKvWZgdq2Bt4DQ8p.cvzn39DWkaoS",
+      "name": "max",
+      "id": 1
+    },
+    {
+      "email": "sasa@mail.ru",
+      "password": "$2a$10$rFW3bkLATJmAsvfOCZJvfu69rZQOeQVtHvRfhpwLcIDqYmPvFEJ.q",
+      "name": "sasa",
+      "id": 2
+    },
+    {
+      "email": "sasas@mail.ru",
+      "password": "$2a$10$pCwtVTCHX5nJ9E2q1.8rvenVjXBi6jePVJaijzDiT7X6MJko4DIVK",
+      "name": "sasa",
+      "id": 3
+    },
+    {
+      "email": "max@mail.ru",
+      "password": "$2a$10$bgvBphtAgOCDUcC.YSwwEu0C3tmJydBIwmADHNtcE5KYXRaTARhj.",
+      "name": "max",
+      "id": 4
+    },
+    {
+      "email": "adrian@mail.ru",
+      "password": "$2a$10$CuD51wHKepo2CURva5IGu.TGiASI33.TFbcOHmu19x1sNHVjyMoFm",
+      "name": "adrian",
+      "id": 5
+    },
+    {
+      "email": "sasa.bancila@gmail.com",
+      "password": "$2a$10$PGQoLVNbE/7g3xZX1yGB9./J2jkevKt3gZLbOnjm/siV5rnDlnmpu",
+      "name": "Alexandru",
+      "id": 6
+    },
+    {
+      "email": "123132@gmail.com",
+      "password": "$2a$10$ZLK2IXxtH5OCXnlnhthS6utcUJSTZYxaLXkzfEqbzJzWXjmL54KUC",
+      "name": "Alex",
+      "balance": 100,
+      "avatar": "",
+      "products": [],
+      "id": 7
+    }
+  ],
+  "product": [
+    {
+      "id": 1,
+      "price": "500$",
+      "image": "https://darwin.md/images/product/thumbs/2021/09/darwin-apple-iphone-13-6-gb-128-gb-midnight-074.webp",
+      "title": "Iphone 13",
+      "desc": "Nou in pachet"
+    },
+    {
+      "id": 2,
+      "price": "1200$",
+      "image": "https://darwin.md/images/product/2022/11/laptop-apple-macbook-air-13-2020-mgn63ru-a-rus-space-gray-026.webp",
+      "title": "Apple MacBook Air",
+      "desc": "Nou in pachet"
+    },
+    {
+      "id": 3,
+      "price": "700$",
+      "image": "https://darwin.md/images/product/2023/01/ceas-inteligent-apple-watch-series-7-mkn93wb-a-product-red-product-red-sport-084.webp",
+      "title": "Apple Watch Series 7",
+      "desc": "Nou in pachet"
+    },
+    {
+      "id": 4,
+      "price": "500$",
+      "image": "https://darwin.md/images/product/2022/12/darwin-trotineta-electrica-xiaomi-mi-pro-2-black-099.webp",
+      "title": "Xiaomi Mi Pro 2 Black",
+      "desc": "Nou in pachet"
+    }
+  ]
+}
