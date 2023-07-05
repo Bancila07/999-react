@@ -1,10 +1,11 @@
 import React from 'react';
 
-const Select = ({title, list}) => {
+const Select = ({title, list , formKey, register}) => {
+
     return (
         <div>
-            <h3>{title}</h3>
-            <select name="" id="">
+            <h3 className='post__select-title'>{title}</h3>
+            <select {...register(`${formKey}`)} className='post__select-select' name="" id="">
 
                     <option selected disabled>
                     Alege
